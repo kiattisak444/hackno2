@@ -10,7 +10,7 @@ const TIMEOUT_MS = 7_000;
 // JS fallback when finishReason === "MAX_TOKENS". Update the phone/LINE ID
 // here before deploying to production.
 export const DEFAULT_REPLY =
-  "ขออภัยค่ะ เรื่องนี้พี่ขอเช็คให้ก่อนนะคะ 🙏 รบกวนติดต่อ 0625418139 ค่ะ";
+  "ขออภัยผู้ใช้บัญชีนี้กำลังนอนหลับอยู่ รบกวนติดต่อกลับอีกที 365 วันหลังจากวันนี้ห่ะ 🫪";
 
 let client: GoogleGenAI | null = null;
 function getClient(): GoogleGenAI {
